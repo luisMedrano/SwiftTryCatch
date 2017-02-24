@@ -1,6 +1,6 @@
 //
 //  TryCatchSample.swift
-//  entrevista
+// 
 //
 //The MIT License (MIT)
 //Copyright (c) 2017 Luis Medrano-Zaldivar
@@ -48,12 +48,15 @@ class TryCatchSample {
     enum arrayToProcessError: Error, CustomStringConvertible {
         
         case equalCero
-        var localizedDescription: String{
-            return "The array is empty"
-        }
         case lessThanTwo
+        
         var description: String {
-            return "At leasts 2 elements in the array"
+            switch self {
+            case .equalCero:
+                return "The array is empty"
+            case .lessThanTwo:
+                return "At leasts 2 elements in the array"
+            }
         }
     }
     
@@ -65,9 +68,7 @@ class TryCatchSample {
         if arrayToProcess.count < 2 {
             throw arrayToProcessError.lessThanTwo
         }
-        
+        print("esta aqui!!!!")
         return arrayToProcess[0]
     }
 }
-
-
