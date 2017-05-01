@@ -1,4 +1,7 @@
 [![apm](https://img.shields.io/apm/l/vim-mode.svg?style=plastic)](https://github.com/luisMedrano/SwiftTryCatch)
+[![apm](https://img.shields.io/badge/Platform-iOS-blue.svg?style=plastic)](https://github.com/luisMedrano/SwiftTryCatch)
+
+
 
 # Swift 3: Try/Catch sample code
 
