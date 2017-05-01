@@ -1,3 +1,5 @@
+[![apm](https://img.shields.io/apm/l/vim-mode.svg?style=plastic)](https://github.com/luisMedrano/SwiftTryCatch)
+
 # Swift 3: Try/Catch sample code
 
 *****
